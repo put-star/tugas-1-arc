@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charseat="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ARC search</title> 
+<!-- Tambahan fitur background animasi bagian belakang-->
+        <style type="text/css">   
+            body {
+                width: 100%;
+                height:100%;
+                animation: anim 8s infinite;
+                background-blend-mode: overlay;
+            }
+
+            @keyframes anim {
+                0%{
+                    background: #2E5266;
+                }
+                20%{
+                    background:#6E8898;
+                }
+                40%{
+                    background: #9FB1BC;
+                }
+                60%{
+                    background: #D3D0CB;
+                }
+                80%{
+                    background:#E2C044;
+                }
+                100%{
+                    background: #0CA98A;
+                }
+            }
+        </style>
+        <link rel ="stylesheet" href="style.css">
+        <link rel ="shortcut icon" type= "image/jpg" href="./assets/download.ico">
+       
+</head>
+
+<body>
+    <nav>
+        <a href="https://about.google/intl/en/products/">
+            <img src="./assets/apps.svg" alt="app google" class ="apps"><!--Tambahan fitur gambar-->
+        </a>
+        <a href="https://mail.google.com">
+            <img src="./assets/gmail.svg" alt="gmail"><!--Tambahan fitur gambar-->
+        </a>
+        <a href="https://www.google.com/imghp">
+            <img src="./assets/photos.svg" alt="setting"><!--Tambahan fitur gambar-->
+        </a>
+        <img src="./assets/Bussines man.png" alt="profile-thumbnail">
+    </nav>
+    <form action="https://google.com/">
+        <img src="./assets/arc-search-logo.webp" alt="main-logo" class="main-logo">
+        <div class="search-input">
+            <input type="text " name="q" >
+            <img src="./asssets/icons/search-24px.svg" alt="search-icon"  class="icon search-icon">
+            <img src="./asssets/icons/mic-24px.svg" alt="mic-icon" class="icon mic-icon">
+        </div>
+        <div class ="buttons">
+            <button type="submit">Google Search</button>
+            <button>I"m Feeling Lucky</button>
+        </div>
+<!--Tambahan fitur video-->
+        <div class="banner">
+            <video autoplay loop muted >
+                <source src="./assets/video1.mp4">
+            </video>
+        </div>
+
+        <p>ARC offered in: <a href="https:/arc.itb.ac.id">Institut Teknologi Bandung</a></p>
+    </form>
+
+    </body>
+        
+</html>
